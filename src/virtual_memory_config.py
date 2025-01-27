@@ -18,6 +18,8 @@ system.cpu.mmu = X86MMU()
 system.cpu.mmu.itb.size = 64
 system.cpu.mmu.dtb.size = 64   
 
+# system.cpu.mmu.page_size = 2 * 1024 * 1024
+
 system.cpu.icache = L1ICache()
 system.cpu.dcache = L1DCache()
 
