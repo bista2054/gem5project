@@ -1,6 +1,6 @@
 import m5
 from m5.objects import *
-from caches import *
+from src.assgn3.caches import *
 
 system = System()
 
